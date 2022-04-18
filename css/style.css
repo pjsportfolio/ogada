@@ -1,0 +1,148 @@
+/*공통요소*/
+*{margin: 0; padding: 0;}
+.wrap{width: 100%;}
+.inner{width: 1200px; margin: 0 auto;}
+ul{list-style: none;}
+
+
+/*header*/
+header{width: 100%; padding: 10px 30px; box-sizing: border-box;}
+header::after{display: block; content: ""; clear: both;}
+.logo{float: left; width: 60px;}
+.logo img{width: 100%;}
+nav{float: right; width: 80%;}
+nav::after{display: block; content: ""; clear: both;}
+nav .h1{float: left; width: 80%; list-style: none; padding-top: 20px;}
+nav .h1 li{display: inline-block; margin: 0 40px;}
+nav .h2{float: right; list-style: none;}
+nav .h2 li{display: inline-block; padding: 5px;}
+nav .h2 img{position: relative; width: 25px;}
+
+
+
+/*main*/
+.slider .mainimg{position: relative; width: 900px; height: 600px; margin: 0 auto;}
+.slider img{display: block; position: absolute;}
+
+.maintext{position: absolute; top: 100px; left: 100px; z-index: 2;}
+.slider div img:nth-of-type(1){top: 110px; left:0px; z-index: 2;}
+.slider div img:nth-of-type(2){top: 0px; left: 0px;z-index: 1;}
+.slider div img:nth-of-type(3){top: 0px; left: 50%;z-index: 3;}
+
+
+/*bx slider 수정 부분*/
+
+.bx-wrapper{
+    -webkit-box-shadow: none; 
+     box-shadow: none;
+     border: none;
+}
+.bx-wrapper .bx-pager-item{font-size: 1em;}
+.bx-wrapper .bx-pager.bx-default-pager a{
+    background: none; text-indent: 0px; display: inline-block; text-decoration: none; color: black; font-weight: normal; }
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{background: none; font-weight: 600; text-decoration: underline;}
+.bx-wrapper .bx-pager{text-align: right; padding-right: 50px;box-sizing: border-box; }
+.bx-pager::before{display: inline; content: '신선을 경험해 보세요'; padding-right: 10px;}
+.bx-controls{position: relative; top: -50px;}
+
+.main::after{display: block; content: ""; clear: both;}
+
+
+
+/*con1*/
+.con1{width: 100%; height: 730px; background-color: #f7f7f7;}
+.con1 a{text-decoration: none; color: #fff;}
+.con1 h1{font-size: 3.5em; text-align: center; padding-top: 130px;}
+.con1 .cl{width: 100%; padding-top: 40px; text-align: center;}
+.con1 .cl li{width: 238px; height: 238px; position: relative; float: left;}
+.con1 .cl img{width: 350px; transform: translate(-60px, -50px); }
+.con1 .cl p{width: 236px; height: 236px; border: 1px solid #000; position: absolute; top: 0; left: 0; z-index: 1; font-size: 3.3em; }
+.con1 .cl a{width: 234px; height: 234px; border-radius: 50%; border: 1px solid black; line-height: 220px; display: block; }
+.cl_1:hover{background: url(../images/1_3.png) no-repeat center;}
+.cl_2:hover{background: url(../images/2_3.png) no-repeat center;}
+.cl_3:hover{background: url(../images/3_3.png) no-repeat center;}
+.cl_4:hover{background: url(../images/4_3.png) no-repeat center;}
+.cl_5:hover{background: url(../images/5_3.png) no-repeat center;}
+
+.con1::after{display: block; content: ""; clear: both;}
+
+
+/*con2*/
+.con2{width: 100%;}
+.con2 h1{font-size: 3.5em; text-align: center; padding-top: 100px;}
+.con2 img{width: 50%;}
+.se{padding-top: 100px;}
+.se_text{float: right;; position: relative; padding-right: 250px; padding-top: 25px;}
+.sec img{padding-top: 100px; float: right;}
+.sec_text{float: left; text-align: right; padding-left: 180px; padding-top: 110px;}
+
+.con2::after{display: block; content: ""; clear: both;}
+
+
+
+/*con3*/
+.con3{text-align: center; padding-top: 140px; padding-bottom: 140px;}
+.con3 img{width: 100%;}
+
+
+/*con4*/
+.con4{width: 100%; background-color: #f5f5f5;}
+.con4 h2{font-size: 3em; text-align: center; padding-top: 40px; padding-bottom: 50px;}
+.co1{border-bottom:1px solid; padding: 20px; box-sizing: border-box;}
+.co1 h1{font-size: 5em; text-decoration: #767676; text-align: center; width: 200px; float: left;}
+.co1 h1 > span{font-size: 0.35em; font-weight: normal; display: block; line-height: 10px;}
+.co1 h3{font-size: 1.2em; float: left; padding-left: 20px; line-height: 150px;}
+.co1 img{float: right; display: block; padding-top: 15px; padding-right: 50px; width: 25%;}
+
+.co2{border-bottom:1px solid; padding: 20px; box-sizing: border-box;}
+.co2 h1{font-size: 5em; text-decoration: #767676; text-align: center; width: 200px; float: left;}
+.co2 h1 > span{font-size: 0.35em; font-weight: normal; display: block; line-height: 10px;}
+.co2 h3{font-size: 1.2em; float: left; padding-left: 20px; line-height: 150px;}
+.co2 img{float: right; display: block; padding-top: 15px; padding-right: 50px; width: 25%;}
+
+.co3{border-bottom:1px solid; padding: 20px; box-sizing: border-box;}
+.co3 h1{font-size: 5em; text-decoration: #767676; text-align: center; width: 200px; float: left;}
+.co3 h1 > span{font-size: 0.35em; font-weight: normal; display: block; line-height: 10px;}
+.co3 h3{font-size: 1.2em; float: left; padding-left: 20px; line-height: 150px;}
+.co3 img{float: right; display: block; padding-top: 15px; padding-right: 50px; width: 25%;}
+
+.co1::after{display: block; content: ""; clear: both;}
+.co2::after{display: block; content: ""; clear: both;}
+.co3::after{display: block; content: ""; clear: both;}
+.con4::after{display: block; content: ""; clear: both;}
+
+
+
+/*footer*/
+footer a{text-decoration: none; color: inherit;}
+/*inherit:부모요소 상속 / initial: 기본값(초기화)*/
+.fot_inner{padding-left: 170px; padding-right: 200px; width: 80%; height: 460px; padding-top: 50px;}
+.fot{padding: 50px 0;background-color: #4d4d4f; color: #ffffff;}
+.fot_inner{font-size: 1.4em;}
+
+.foot_up::after{clear: both;content: "";display: block;}
+.ft_ul{float: left; width: 50%;}
+.ft_ul li{float: left; padding-left: 50px;}
+
+.ft_sns{float: right; width: 40%;}
+
+.ft_sns::after{clear: both;content: "";display: block;}
+.ft_sns div{float: left; padding: 0 20px; box-sizing: border-box;}
+.ft_sns div p{display: inline-block;}
+
+.ft_qu #sub{background-color: #4d4d4f; padding: 10px; color:#fff;}
+
+.ft_con{padding-top: 60px; padding-left: 50px; box-sizing: border-box;}
+.ft_con h3{padding-bottom: 10px;}
+.ft_con1{border: 1px solid #fff; padding: 20px 0;}
+.ft_con1 ul::after{clear: both;content: "";display: block;}
+.ft_con1 ul img{ padding-left: 50px;}
+.ft_con1 ul p{display: inline-block; padding-left: 15px; }
+.ft_con1 li{float: left; padding-left: 50px; padding-top: 10px; padding-bottom: 10px;}
+
+.ft_la{padding-top: 60px; padding-left: 50px;}
+.ft_la p{padding-top: 15px;}
+
+.foot_up::after{display: block; content: ""; clear: both;}
+.ft_con::after{display: block; content: ""; clear: both;}
+

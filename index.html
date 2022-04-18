@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>프로젝트_오가다</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider();
+        
+
+/*
+            $('.cl_1').hover(function(){
+                $(this).css({'background':'url(images/1_3.png) no-repeat center'});
+            },function(){
+                $(this).css({'background':'none'});
+            }); //hover End  //마우스호버 한번에 주는거 *function 두개 한번에 주기
+*/
+
+    });//redy 끝
+    </script>
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo"><img src="images/logo.png" alt="로고"></div>
+            <nav>
+                <ul class="h1">
+                    <li>BRAND</li>
+                    <li>MENU</li>
+                    <li>ONLINE MALL</li>
+                    <li>NEWS</li>
+                    <li>FRANCHISE</li>
+                </ul>
+                <ul class="h2">
+                    <li>LOGIN</li>
+                    <li><img src="images/icon.png" alt="장바구니"></li> 
+                    <li><img src="images/icon_1.png" alt="검색"></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="main">
+                <div class="slider">
+                    <div><!--개별슬라이더구분-->
+                        <div class="mainimg"><!--개별 슬라이더안에서 중앙 정렬을 위해-->
+                            <div class="maintext">
+                                <h2>強<span>[강]차</span></h2>
+                                <h3>쌍화</h3>
+                                <p>몸에 좋은 9가지 약재로 만든<br>쌍화차에 대추, 계피, 잣을 더한<br>전통적인 블렌딩티</p>
+                            </div>
+                            <img src="images/1_1.png" alt="강반달">
+                            <img src="images/1_2.png" alt="강블러">
+                            <img src="images/1.png" alt="강차">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mainimg">
+                            <div class="maintext">
+                                <h2>呼<span>[호]차</span></h2>
+                                <h3>배도라지</h3>
+                                <p>기관지를 보호해주는<br>배, 도라지, 생강에<br>레몬청을 더한 베스트 블렌딩티</p>
+                            </div>
+                            <img src="images/2_1.png" alt="호반달">
+                            <img src="images/2_2.png" alt="호블러">
+                            <img src="images/2.png" alt="호차">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mainimg">
+                            <div class="maintext">
+                                <h2>美<span>[미]차</span></h2>
+                                <h3>석류오미자</h3>
+                                <p>혈액을 맑게 해주는 석류에<br>노화를 방지하는 오미자를 더한<br>새콤한 블랜딩티</p>
+                            </div>
+                            <img src="images/3_1.png" alt="미반달">
+                            <img src="images/3_2.png" alt="미블러">
+                            <img src="images/3.png" alt="미차">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mainimg">
+                            <div class="maintext">
+                                <h2>消<span>[소]차</span></h2>
+                                <h3>생강귤피</h3>
+                                <p>소화를 촉진하고 몸을 따뜻하게 하는 생강과<br>귤피가 만나 매력적인<br>매콤한 맛을 내는 블렌딩티</p>
+                            </div>
+                            <img src="images/4_1.png" alt="소반달">
+                            <img src="images/4_2.png" alt="소블러">
+                            <img src="images/4.png" alt="소차">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mainimg">
+                            <div class="maintext">
+                                <h2>安<span>[안]차</span></h2>
+                                <h3>대추감초</h3>
+                                <p>심신을 편안하게 하고<br>안정시켜주는 달큰한 대추에<br>감초가 더해진 블렌딩티</p>
+                            </div>
+                            <img src="images/5_1.png" alt="안반달">
+                            <img src="images/5_2.png" alt="안블러">
+                            <img src="images/5.png" alt="안차">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="con1">
+                <div class="inner">
+                    <h1>Taste Palette<br>Which color do you like?</h1>
+                    <ul class="cl">
+                        <li>
+                            <img src="images/강블러.png" alt="강블러">
+                            <p><a href="#" class="cl_1" onclick="return false">強</a></p>
+                        </li>
+                        <li>
+                            <img src="images/호블러.png" alt="호블러">
+                            <p><a href="#" class="cl_2" onclick="return false">呼</a></p>
+                        </li>
+                        <li>
+                            <img src="images/미블러.png" alt="미블러">
+                            <p><a href="#" class="cl_3" onclick="return false">美</a></p>
+                        </li>
+                        <li>
+                            <img src="images/소블러.png" alt="소블러">
+                            <p><a href="#" class="cl_4" onclick="return false">消</a></p>
+                        </li>
+                        <li>
+                            <img src="images/안블러.png" alt="안블러">
+                            <p><a href="#" class="cl_5" onclick="return false">安</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="con2">
+                <div class="inner">
+                    <h1>BLENDING TEA</h1>
+                    <div class="se">
+                        <img src="images/다섯가지목적.png" alt="다섯가지목적">
+                        <div class="se_text">
+                        <h3>오가다는 다섯가지 목적<br>(강, 호, 미, 소, 안)에 따라<br>블렌딩 레시피를 구성합니다</h3>
+                        <p>우리의 전통에선 '약식동원'이라<br>하여 약과 음식의 근원이 같다고<br>보았습니다<br>오가다 블렌딩티를 통해 고객이<br>찾을 수 있는 건강상의 이점을<br>'강,호,미,소,안' 다섯가지 목적으로<br>분류하고, 이를 통해 한약재와<br>허브, 과일 등의 재료가 최적의<br>조화를 이루는 블렌딩티를 선보입니다</p>
+                        </div>
+                    </div>
+                    <div class="sec">
+                        <img src="images/블렌딩티의 여정.png" alt="블렌딩티의 여정">
+                        <div class="sec_text">
+                        <h3>카페 오가다 블렌딩티는<br>'나무'에서 시작합니다</h3>
+                        <p>나무로부터 오는 귀한 재료들이<br>한 잔의 블렌딩티에<br>가져다주는 다양한 맛, 향, 영양과 효능은<br>단지 차 한 잔이 주는<br>여유와 쉼을 뛰어 넘어<br>심신의 조화, 자연과의 조화까지 느끼게 합니다<br>블렌딩티 판매 수익금의 일부를<br>'나무심기' 사업에 기부하여<br>다시 자연에 환원하는<br>긍정적인 순환 고리를<br>만들어 나가고자 합니다</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="con3">
+                <div class="inner">
+                    <img src="images/banner.png" alt="소배너">
+                </div>
+            </section>
+            <section class="con4">
+                <div class="inner">
+                    <h2>오가다<span>소식</span></h2>
+                    <div class="con4_co">
+                        <div class="co1">
+                            <h1>01
+                                <span>2022.02</span>
+                            </h1>
+                            <h3>오가다, 여름 겨냥 신메뉴 '쑥 크럼블 빙수 출시</h3>
+                            <img src="images/s.png" alt="쑥크럼블이미지">
+                        </div>
+                        <div class="co2">
+                            <h1>28
+                                <span>2022.02</span>
+                            </h1>
+                            <h3>오가다, 봄맞이 신메뉴 크리미한 라떼와 바움쿠헨 출시</h3>
+                            <img src="images/c.png" alt="라떼이미지">
+                        </div>
+                        <div class="co3">
+                            <h1>05
+                                <span>2022.03</span>
+                            </h1>
+                            <h3>오가다, GS25 에이드 2종 출시</h3>
+                            <img src="images/o.png" alt="오미자">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="fot">
+                <div class="inner">
+                    <div class="foot_up">
+                        <ul class="ft_ul">
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보취급방침</a></li>
+                        </ul>
+                        <div class="ft_sns">
+                            <div class="ft_fb">
+                                <img src="images/insta_icon.png" alt="페북아이콘">
+                                <p>ogada_official</p>
+                            </div>
+                            <div class="ft_insta">
+                                <img src="images/fb_icon.png" alt="인스타아이콘">
+                                <p>오가다 TV</p>
+                            </div>
+                            <div class="ft_qu">
+                                <select id="sub">
+                                    <option value="ko" selected>KOREAN</option>
+                                    <option value="en">ENGLISH</option>
+                                    <option value="ch">CHINESE</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ft_con">
+                        <h3>CONTACT US</h3>
+                        <div class="ft_con1">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/tel_icon.png" alt="전화아이콘">
+                                        <p>02-738-0124</p>
+                                    </a>
+                                </li>
+                                <li><a href="#">고객의 소리</a></li>
+                                <li><a href="#">1:1 창업상담요청</a></li>
+                                <li><a href="#">제휴문의</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ft_la">
+                        <p>상호명 : (주)오가다</p>
+                        <p>
+                            <span>주소 : 서울특별시 종로구 대학로12길 15 5층</span>
+                            <span>사업자번호 : 101-86-51922</span>
+                            <span>전화 : 02-738-0124</span>
+                            <span>팩스 : 02-738-0127</span>
+                            <span>E-mail : ogadamall@ogada.co.kr</span>
+                        </p>
+                        <p>COPYRIGHT(C) 2013 OGADA. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
