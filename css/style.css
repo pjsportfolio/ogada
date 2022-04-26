@@ -3,6 +3,7 @@
 .wrap{width: 100%;}
 .inner{width: 1200px; margin: 0 auto;}
 ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
 
 
 /*header*/
@@ -146,3 +147,11 @@ footer a{text-decoration: none; color: inherit;}
 .foot_up::after{display: block; content: ""; clear: both;}
 .ft_con::after{display: block; content: ""; clear: both;}
 
+/*sub*/
+.sub_main img{width: 100%;}
+.sub_main h1{position: absolute; color: #fff; font-size: 3em; top: 350px; left: 660px;}
+
+.sub1 img{width: 25%; position: absolute; top:600px; left: 230px;}
+.text1 {text-align: left; padding-left: 680px; padding-top: 70px; padding-bottom: 150px;}
+.sub2 img{width: 80%; padding-left: 200px; padding-bottom: 110px;}
+.sub3 img{width: 80%; padding-left: 90px; padding-bottom: 110px;}
